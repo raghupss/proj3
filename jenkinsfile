@@ -14,10 +14,11 @@ pipeline {
 				echo 'hello from stage'
 				}
 			}
-		stage ('deploy stage)
+		stage ('deploy stage')
 			{
 			steps {
 				echo 'hello from deploy'
 				}
 			}
 		}
+   }
